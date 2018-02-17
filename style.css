@@ -1,0 +1,259 @@
+* {
+  font-family: Verdana, Arial, sans-serif;
+  border: 0 none;
+  line-height: 1em;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background: url(binding_dark_@2X.png) repeat;
+}
+
+.container {
+  width: 61em;
+  margin: 0 auto;
+}
+
+.fleft {
+  float: left;
+}
+
+/*header*/
+
+header img {
+  float: left;
+  line-height: 6em;
+  width: 17em;
+  padding-top: 1.2em;
+}
+
+header p {
+  float: right;
+  line-height: 6em;
+  color: gray;
+  font-size: 0.7em;
+}
+
+.clear {
+  clear: both;
+}
+
+header a {
+  color: lightgray;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.headerline {
+  width: 100%;
+  height: 0.2em;
+  background-color: #ff8400;
+}
+
+/*header*/
+
+/*navigation*/
+
+nav {
+  width: 100%;
+  text-align: center;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+}
+
+nav ul, li {
+  float: left;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1.5em 5.615em;
+  margin: 0;
+  display: inline-block;
+  transition: background-color .5s ease;
+}
+
+nav ul li a:hover {
+  background-color: #ff8400;
+  transition: background-color .5s ease;
+  text-decoration: none;
+  color: white;
+}
+
+.color {
+  background-color: #ff8400;
+  cursor: default;
+}
+
+.carousel-indicators {
+  display: table;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#myCarousel {
+  margin-top: 1px;
+  ;
+}
+
+/*navigation*/
+
+/*about*/
+
+.about {
+  display: table;
+  margin: auto;
+}
+
+.subtitle {
+  font-size: 1.5em;
+  color: gray;
+  margin-bottom: .5em;
+}
+
+.title {
+  font-size: 1.8em;
+  color: lightgray;
+}
+
+.text {
+  margin-top: 2em;
+  color: gray;
+  line-height: 1.2em;
+}
+
+.ourteam {
+  width: 100%;
+  background-color: white;
+  color: #ff8400;
+  text-align: center;
+  padding: 1em 0;
+  font-size: 2em;
+  clear: both;
+}
+
+.frame {
+  overflow: hidden;
+}
+
+.picture {
+  width: 254px;
+  height: 275px;
+  transition: all 1s ease;
+}
+
+.frame:hover .picture, .frame:focus .picture {
+  transform: scale(1.2);
+}
+
+.name {
+  text-align: center;
+  color: lightgray;
+  line-height: 2em;
+}
+
+table {
+  margin-top: 2em;
+}
+
+/*about*/
+
+/*contact*/
+
+h3 {
+  color: lightgray;
+}
+
+.contactFleft {
+  margin-right: 2em;
+}
+
+.contactForm>input {
+  padding: 0.7em;
+  margin-bottom: 1em;
+  width: 25em;
+  background: black;
+  border: 0.6px solid gray;
+  color: lightgray;
+}
+
+.contactForm textarea {
+  padding: 0.8em;
+  margin-bottom: 1em;
+  background: black;
+  border: 0.6px solid gray;
+  resize: none;
+  color: lightgray;
+}
+
+.contactP {
+  padding-top: 2em;
+  width: 245px;
+}
+
+.contactP p {
+  line-height: 1.5em;
+  color: grey;
+  margin-bottom: 1em;
+}
+
+.contactP a {
+  color: grey;
+  text-decoration: underline;
+}
+
+.contactButtons input {
+  padding: 0.7em;
+  background: white;
+  border-radius: 0.3em;
+}
+
+/*contact*/
+
+/*footer*/
+
+.footer {
+  margin-top: 5em;
+}
+
+.footerline {
+  background-color: black;
+  opacity: .5;
+  width: 100%;
+  height: .5em;
+}
+
+.footertext {
+  margin-top: 1em;
+  color: white;
+  line-height: 1.2em;
+  font-size: .8em;
+}
+
+.link {
+  color: #ff8400;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #ff8400;
+}
+
+/*footer*/
